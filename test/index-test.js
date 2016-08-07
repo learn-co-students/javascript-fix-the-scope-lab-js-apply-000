@@ -1,4 +1,5 @@
-/*global describe, it */
+/*
+global describe, it */
 
 describe('Fix the Scope', function() {
   describe('myAnimal()', function() {
