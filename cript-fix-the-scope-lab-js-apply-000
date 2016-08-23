@@ -1,0 +1,94 @@
+[33mcommit 105e20df019c545b9a13b22e80a16229645a893d[m
+Author: James Segarra <jamessegarra3@gmail.com>
+Date:   Tue Aug 23 16:19:40 2016 +0000
+
+    Done.
+
+[33mcommit f9e67c901bb7a7f96f8161cecbdfe3f091221855[m
+Author: pletcher <charles.pletcher@gmail.com>
+Date:   Fri Aug 5 16:14:27 2016 -0400
+
+    Patch up root.js
+
+[33mcommit 83d1776123895565b3d08809a2720355a132855a[m
+Author: pletcher <charles.pletcher@gmail.com>
+Date:   Fri Aug 5 14:23:33 2016 -0400
+
+    Add virtualConsole
+
+[33mcommit 51776ef83c2918b0cbb857c6a72be1bcd990b05f[m
+Author: pletcher <charles.pletcher@gmail.com>
+Date:   Fri Aug 5 14:18:22 2016 -0400
+
+    Update tests to not rely on brittle internal jsdom API
+
+[33mcommit 691ae8f4c61e3c123e8bec076664565a43feab36[m
+Author: Charles Pletcher <cpletcher2@gmail.com>
+Date:   Fri Jul 29 12:06:35 2016 -0400
+
+    Fix tests
+
+[33mcommit c7d4872975d0a56031bbc6ff71035fe85ec04c34[m
+Author: Charles Pletcher <cpletcher2@gmail.com>
+Date:   Fri Jul 29 12:03:47 2016 -0400
+
+    Update tests
+
+[33mcommit 2cc6bb4764f6677710a656394f083ac0ddde4b98[m
+Merge: 6b6769d c8d8a6b
+Author: Charles Pletcher <pletcher@users.noreply.github.com>
+Date:   Fri Jul 29 03:33:47 2016 -0400
+
+    Merge pull request #5 from bhollan/master
+    
+    fix broken tests
+
+[33mcommit c8d8a6b6751f94441cf8e2e7ed8b1f8bc2c6dba7[m
+Author: Brian Holland <beehollander@gmail.com>
+Date:   Fri Jul 29 00:48:48 2016 -0500
+
+    fix broken tests
+
+[33mcommit 6b6769d6ce0db78569c328354abeed6e8ebed7b1[m
+Author: Charles Pletcher <cpletcher2@gmail.com>
+Date:   Tue Jul 26 15:19:59 2016 -0400
+
+    Update instructions
+
+[33mcommit d83e4538a8fbb9fb769a81acbf5dff272fea675e[m
+Author: Charles Pletcher <cpletcher2@gmail.com>
+Date:   Tue Jul 26 15:15:06 2016 -0400
+
+    Update tests and dependencies
+
+[33mcommit bd71d0e80f24be5b41f148884ca8906c4df41253[m
+Author: Joseph Cutler <jc3652@trevor.org>
+Date:   Tue Jul 26 15:13:57 2016 -0400
+
+    update tests to browser based (#3)
+    
+    * update tests to browser based
+    
+    * fixed arrow functoins
+    
+    * fixed toEqual
+
+[33mcommit 1309bc6819c8fd788cd9ae36aa562994382c5f44[m
+Author: Charles Pletcher <cpletcher2@gmail.com>
+Date:   Fri Jul 8 14:16:16 2016 -0400
+
+    Call theFunk() in the final tests
+    
+    Fixes #1
+
+[33mcommit 79306a5ebe5972da636b92cc6415c916bd8c1ade[m
+Author: Charles Pletcher <cpletcher2@gmail.com>
+Date:   Thu May 5 13:08:25 2016 -0400
+
+    Ignore .results.json
+
+[33mcommit 941573bb65afb3c4bcb8593e5ad8b3ada0d20196[m
+Author: Charles Pletcher <cpletcher2@gmail.com>
+Date:   Thu May 5 13:04:17 2016 -0400
+
+    Initial commit
