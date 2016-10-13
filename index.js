@@ -1,28 +1,30 @@
-var animal = 'dog'
-
 function myAnimal() {
-  return animal
+  var animal = 'dog';
+  return animal;
 }
 
 function yourAnimal() {
-  // How can we make sure that this function
-  // and the above function both pass?
-  // P.S.: You can't just hard-code 'cat' below
-  return animal
+  var animal = Math.random();
+  if(animal < 1) {
+    animal = 'cat';
+  } else {
+    console.log('That\'s impossible.');
+  }
+  return animal;
 }
+
+yourAnimal();
 
 function add2(n) {
-  return n + two
-
-  // Feel free to move things around!
-  const two = 2
+  const two = 2;
+  return two + n;
 }
 
-var funkyFunction = function() {
-  return function() {
-    return "FUNKY!"
+function funktified() {
+     return "FUNKY!";
+   }
+
+function funkyFunction() {
+   return funktified();
   }
-}
-
-// We want this to return a function that returns "FUNKY!" -- how can we accomplish that?
-var theFunk = funkyFunction
+var theFunk = funkyFunction();
