@@ -1,10 +1,12 @@
-var animal = 'dog'
+let animal = 'dog'
 
-function myAnimal() {
+function myAnimal(animal) {
+  var animal = "dog"
   return animal
 }
 
 function yourAnimal() {
+  animal = 'cat'
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
@@ -12,17 +14,19 @@ function yourAnimal() {
 }
 
 function add2(n) {
+  const two = 2
   return n + two
 
-  // Feel free to move things around!
-  const two = 2
+  // Feel free to move things around
 }
 
 var funkyFunction = function() {
+  var mood = "FUNKY!";
   return function() {
-    return "FUNKY!"
+    return mood;
   }
 }
 
 // We want this to return a function that returns "FUNKY!" -- how can we accomplish that?
-var theFunk = funkyFunction
+var theFunk = funkyFunction()();
+theFunk;
