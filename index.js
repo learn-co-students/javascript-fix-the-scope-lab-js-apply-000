@@ -20,5 +20,5 @@ function funkyFunction() {
   }
 }
 
-var theFunk = funkyFunction();
-theFunk();
+var beforeTheFunk = funkyFunction();
+var theFunk = beforeTheFunk();
