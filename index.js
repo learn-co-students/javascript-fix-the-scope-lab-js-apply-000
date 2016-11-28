@@ -4,25 +4,21 @@ function myAnimal() {
   return animal;
 }
 
-
-
 function yourAnimal() {
   var animal = 'cat';
   return animal
 }
 
 function add2(n) {
-  return n + two
-
-  // Feel free to move things around!
-  const two = 2
+  const two = 2;
+  return n + two;
 }
 
-var funkyFunction = function() {
+function funkyFunction() {
   return function() {
-    return "FUNKY!"
+    return "FUNKY!";
   }
 }
 
-// We want this to return a function that returns "FUNKY!" -- how can we accomplish that?
-var theFunk = funkyFunction
+var theFunk = funkyFunction();
+theFunk();
