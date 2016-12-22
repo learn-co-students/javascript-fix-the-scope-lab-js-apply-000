@@ -1,7 +1,6 @@
 
-
+var animal = 'dog';
 function myAnimal() {
-  var animal = 'dog';
   return 'dog';
 }
 
@@ -22,7 +21,7 @@ var funkyFunction = function() {
   return ()=>{
     return "FUNKY!";
   }
-    
+
 }
 
 var theFunk = funkyFunction();
