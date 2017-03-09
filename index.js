@@ -1,5 +1,4 @@
 var animal = 'dog'
-var urAnimal = 'cat'
 
 function myAnimal()
 {
@@ -8,8 +7,9 @@ function myAnimal()
 
 function yourAnimal()
 {
-  // -- I created a new variable for yourAnimal to contain that information
-  return urAnimal
+  //redefining animal within scope of function
+  animal = 'cat'
+  return animal
 }
 
 function add2(n)
