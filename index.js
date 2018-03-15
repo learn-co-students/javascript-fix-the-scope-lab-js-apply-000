@@ -10,7 +10,7 @@ function yourAnimal() {
   // P.S.: You can't just hard-code 'cat' below
   return animal;
 }
-//we add this next to override past
+//we add this next to override past func.
 function yourAnimal() {
   var animal = 'cat';
   return animal;
