@@ -11,7 +11,7 @@ function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  //return youranimal - taken out because scope - can put a vairalbe inside a function for only that function.
+  //return youranimal - taken out because scope - can put a variable inside a function for only that function.
   return animal
 }
 
