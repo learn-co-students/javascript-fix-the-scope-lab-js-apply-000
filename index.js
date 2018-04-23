@@ -16,7 +16,6 @@ function add2(n) {
   afterwards irrelevant*/
   const two = 2
   return n + two
-  
 }
 
 var funkyFunction = function() {
@@ -24,10 +23,11 @@ var funkyFunction = function() {
     return "FUNKY!"
   }
 }
-
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
 
-//the variable funkyFunction returns only the function, not the output of the function. So, in order to return "FUNKY!", i need to call the function twice so use ()()
+/*the variable funkyFunction returns only the function, not the 
+output of the function. So, in order to return "FUNKY!", i need 
+to call the function twice so use ()() */
 var theFunk = funkyFunction()()
 
