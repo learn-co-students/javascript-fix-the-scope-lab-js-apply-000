@@ -13,13 +13,8 @@ function yourAnimal() {
 }
 
 function add2(n) {
-<<<<<<< HEAD
   var two = 2;
-=======
-  n = Math.random();
-  const two = 2;
->>>>>>> f493b8acd322bd3e095d37c7efbffd066e8d81e0
-  return n + two
+  return n + two;
 
   // Feel free to move things around!
 }
