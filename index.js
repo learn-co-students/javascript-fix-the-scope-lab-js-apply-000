@@ -1,19 +1,24 @@
-var animal = 'dog'
+var animal = 'dog';
 
 function myAnimal() {
-  return animal
+  return animal;
 }
 
 function yourAnimal() {
   animal = "cat";
-  return animal
+  return animal;
 }
 
-function add2(n) {
-  const two = 2;
-  return n + two;
+ function add2(n) {
+// <<<<<<< HEAD
+   const two = 2;
+   return n + two;
+// =======
+//   const two = 2;
+//   return n + two;
+// >>>>>>> 046cd0a702dbe5fc5e580ed4c629c3413a0077c3
   
-}
+ }
 
 var funkyFunction = function() {
   return function() {
