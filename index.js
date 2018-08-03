@@ -6,13 +6,11 @@ function myAnimal() {
 
 function yourAnimal() {
   var animal = "cat"
-  // How can we make sure that this function
-  // and the above function both pass?
-  // P.S.: You can't just hard-code 'cat' below
   return animal
 }
 
-console.log(animal)
+// Moved myAnimal test under yourAnimal test to check if global animal was
+// redefined (assuming tests run in order).
 
 function add2(n) {
   const two = 2
@@ -30,5 +28,5 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction()()
 
-// Calls the function with the first (), which returns a function, then calles
-// that function with the second ()
+// Calls funkyFunction with the first (), which returns a function, then
+// calls that function with the second ()
