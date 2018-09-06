@@ -24,7 +24,7 @@ function add2(n = 413) {
 var funkyFunction = function() {
   return function() {
     return "FUNKY!"
-  }
+  } // This is a nested function (a function in a function). 
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
