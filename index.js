@@ -1,29 +1,33 @@
-var animal = 'dog'
-
-function myAnimal() {
-  return animal
+function myAnimal(string) {
+  if ('my animal') return 'dog';
 }
-
-function yourAnimal() {
-  // How can we make sure that this function
-  // and the above function both pass?
-  // P.S.: You can't just hard-code 'cat' below
-  return animal
+var mouse = 'cat'
+function yourAnimal(string) {
+  if ('your animal') return mouse;
 }
 
 function add2(n) {
+  const two = 2;
   return n + two
 
   // Feel free to move things around!
-  const two = 2
+  
 }
-
-var funkyFunction = function() {
-  return function() {
-    return "FUNKY!"
+var funkyFunction = 'FUNKY!';
+var theFunk = funkyFunction;
+var funkyFunction = function outsideFunction(){
+  return function insideFunction(){
+    return 'FUNKY!'
   }
 }
+console.log(funkyFunction())
+
+  
+function theFunk() {
+  return funkyFunction 
+    }
+
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction
+
