@@ -10,24 +10,22 @@ function yourAnimal(string) {
 }
 
  
-  const two = 2
- 
+  
+ const two = 2
 function add2(n) {
+
   return n + two
   
- 
   // Feel free to move things around!
   
 }
 
 var theFunk = "FUNKY!"
 
-function funkShell() {
-    return theFunk
-}
-
-function funkyFunction() {
-  return funkShell()
+var funkyFunction = function() {
+  return function() {
+    return "FUNKY!"
+  }
 }
 
 
@@ -35,7 +33,7 @@ function funkyFunction() {
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line
 
-
+var theFunk = funkyFunction()()
 
 
 
