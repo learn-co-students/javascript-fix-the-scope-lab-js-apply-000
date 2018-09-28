@@ -4,8 +4,8 @@ function myAnimal() {
 }
 
 function yourAnimal() {
-  const animal = 'cat';
-  return animal;
+  const animal2 = 'cat';
+  return animal2;
 }
 
 function add2(n) {
@@ -19,4 +19,3 @@ var funkyFunction = function outsideFunction() {
 }
 
 var theFunk = funkyFunction()();
-
