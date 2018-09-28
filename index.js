@@ -32,4 +32,4 @@ var funkyFunction = function() {
 var theFunk = funkyFunction()
 
 theFunk = theFunk();
-
+// ^ I don't get how that worked out.
