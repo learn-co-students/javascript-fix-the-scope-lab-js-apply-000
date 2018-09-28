@@ -17,6 +17,7 @@ describe('Fix the Scope', function() {
     })
   })
 
+
   describe('add2(n)', function() {
     it('adds two to n', function() {
       const n = Math.floor(Math.random() * 1000)
@@ -24,11 +25,13 @@ describe('Fix the Scope', function() {
     })
   })
 
+
   describe('funkyFunction()', function() {
     it('returns a function', function() {
       expect(typeof window.funkyFunction()).toEqual('function')
     })
   })
+
 
   describe('theFunk', function() {
     it('is "FUNKY!"', function() {
