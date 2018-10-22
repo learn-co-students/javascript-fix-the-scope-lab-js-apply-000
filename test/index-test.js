@@ -8,11 +8,11 @@ describe('Fix the Scope', function() {
   })
 
   describe('yourAnimal()', function() {
-    it('returns your animal', function(){
+    it('returns your animal', function() {
       expect(window.yourAnimal()).toEqual('cat')
     })
-
-    it('does not hard-code the answer', function() {
+    
+    it('does not hard-code the answer', function (){
       expect(window.yourAnimal.toString()).toNotContain("return 'cat'")
     })
   })
