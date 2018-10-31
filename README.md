@@ -29,5 +29,5 @@ We can make the function execute by saying this:
 
 - [MDN: Scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-fix-the-scope-lab'>Fix The Scope Lab</a> on Learn.co and start learning to code for free.</p>
-var theFunk =[Function: funkyFunction] to equal 'FUNKY!'
+<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-fix-the-scope-lab'>Fix The Scope Lab</a> on Learn.co and start learning to code for free.</p
+functioNname
