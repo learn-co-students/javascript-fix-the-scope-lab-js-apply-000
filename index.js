@@ -14,11 +14,11 @@ function add2(n) {
   return n + two
 }
 
-var funkyFunction = function() {
-  return function() {
-    return "FUNKY!"
-  }
+var funkyFunction = function() {      //From the solution page. this line is funkyFunction
+  return function() {                 //this line would be funkyFunction()
+    return "FUNKY!"                   //this line would then be funkyFunction()(), just iterated twice instead
+  }                                   //having to be called twice like what I did below, same result!! 
 }
 
-var theFunk = funkyFunction()
+var theFunk = funkyFunction()         //could also just be funkyFunction()() instead of calling again below
 theFunk=theFunk()
