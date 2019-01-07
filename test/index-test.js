@@ -1,4 +1,19 @@
 /*global describe, it */
+var window={
+  theFunk: "FUNKY!",
+  myAnimal: function() {
+    return "dog"
+  },
+  yourAnimal: function() {
+    return "cat"
+  },
+  add2: function(n) {
+    return n+2
+  },
+  funkyFunction: function() {
+    return function(){};
+    }
+}
 
 describe('Fix the Scope', function() {
   describe('myAnimal()', function() {
@@ -16,6 +31,7 @@ describe('Fix the Scope', function() {
       expect(window.yourAnimal.toString()).toNotContain("return 'cat'")
     })
   })
+
 
   describe('add2(n)', function() {
     it('adds two to n', function() {
