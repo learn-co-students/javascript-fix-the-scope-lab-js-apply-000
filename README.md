@@ -29,4 +29,22 @@ We can make the function execute by saying this:
 
 - [MDN: Scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-fix-the-scope-lab'>Fix The Scope Lab</a> on Learn.co and start learning to code for free.</p>
+<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-fix-the-scope-lab'>Fix The Scope Lab</a> on Learn.co and start learning to code for free.</p
+      expect(window.yourAnimal()).toEqual('cat')
+    })
+     it('does not hard-code the answer', function() {
+      expect(window.yourAnimal.toString()).toNotContain("return 'cat'")
+    })
+   })
+   describe('add2(n)', function() {
+@@ -24,12 +26,15 @@ describe('Fix the Scope', function() {
+    })
+  })
+   describe('funkyFunction()', function() {
+    it('returns a function', function() {
+      expect(typeof window.funkyFunction()).toEqual('function')
+    })
+   })
+   describe('theFunk', function() {
+    it('is "FUNKY!"', function() {
+      expect(window.theFunk).toEqual('FUNKY!')
