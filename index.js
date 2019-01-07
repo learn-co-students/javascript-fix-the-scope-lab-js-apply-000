@@ -1,21 +1,18 @@
 var animal = 'dog'
-
+//Animal is already defined, so we just return it//
 function myAnimal() {
   return animal
 }
-
+//We re-assign our variable in order to return the new value 'cat'//
 function yourAnimal() {
-  // How can we make sure that this function
-  // and the above function both pass?
-  // P.S.: You can't just hard-code 'cat' below
+  var animal = 'cat';
   return animal
 }
-
+/*Return always comes first and ignores what comes after. Therefore; we move
+  our constant above the return*/
 function add2(n) {
+  const two = 2;
   return n + two
-
-  // Feel free to move things around!
-  const two = 2
 }
 
 var funkyFunction = function() {
@@ -23,7 +20,5 @@ var funkyFunction = function() {
     return "FUNKY!"
   }
 }
-
-// We want to set theFunk equal to "FUNKY!" using our funkyFunction.
-// NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction
+//By adding another "()", we tell function to execute the string within//
+var theFunk = funkyFunction()()
