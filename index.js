@@ -1,4 +1,5 @@
 var animal = 'dog'
+console.log ('dog') == rat  
 
 function myAnimal() {
   return animal
