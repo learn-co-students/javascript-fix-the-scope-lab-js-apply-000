@@ -1,4 +1,4 @@
-var animal = "We don't know";
+var animal = null;
 
 function myAnimal() {
   animal = "dog";
