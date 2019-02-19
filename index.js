@@ -15,8 +15,7 @@ function add2(n) {
   return n + two
 }
   // Feel free to move things around!
-  https://previews.123rf.com/images/lamika/lamika1507/lamika150700002/42441517-white-and-gold-pattern-abstract-geometric-modern-background-vector-illustration-shiny-backdrop-textu.jpg
-
+  
 
 var funkyFunction = function() {
   return function() {
