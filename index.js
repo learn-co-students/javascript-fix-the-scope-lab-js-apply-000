@@ -1,4 +1,4 @@
-  var animal = 'dog'
+var animal = 'dog'
 
 function myAnimal() {
   return animal;
@@ -22,9 +22,7 @@ var funkyFunction = function() {
   }
 }
 
-var newVar = funkyFunction;
-var newerVar = newVar();
-
-var theFunk = newerVar();
+var newVar = funkyFunction();
+var theFunk = newVar();
 
 
