@@ -1,29 +1,52 @@
-var animal = 'dog'
+var animal = 'dog';
+//Defines the global variable 'animal'
+//Assigns 'animal' the string 'dog'
 
 function myAnimal() {
-  return animal
+  return animal;
 }
+//Defines the function 'myAnimal' that takes no arguments
+//'myAnimal' returns the global variable 'animal'
+//Because 'myAnimal' is in the same scope as 'animal,' the function will return the string 'dog' here
 
-function yourAnimal() {
-  // How can we make sure that this function
-  // and the above function both pass?
-  // P.S.: You can't just hard-code 'cat' below
-  return animal
+function yourAnimal(animal) {
+  var animal = 'cat'
+  return animal;
 }
+//Defines the function 'yourAnimal' that takes one argument, 'animal'
+//Defines the LOCAL variable 'animal'
+//Assigns 'animal' the string 'cat' WITHIN the 'yourAnimal' function
+//'yourAnimal' returns the LOCAL variable 'animal'
+//Because 'animal' is a local variable within the same scope as the 'yourAnimal' return command, the function will return the string 'cat' here
 
 function add2(n) {
-  return n + two
-
-  // Feel free to move things around!
-  const two = 2
+  const two = 2;
+  return n + two;
 }
+//Defines the function 'add2' that takes one argument, 'n'
+//Defines the local constant variable 'two'
+//Assigns 'two' the integer 2
+//'add2' returns 2 plus the entered integer
 
 var funkyFunction = function() {
   return function() {
-    return "FUNKY!"
-  }
-}
+    return "FUNKY!";
+  };
+};
+//Defines the global variable 'funkyFunction'
+//Assigns funkyFunction the execution of a function that takes no arguments
+//The first function returns the execution of a second function that takes no arguments
+//The second function returns the string "FUNKY!"
 
-// We want to set theFunk equal to "FUNKY!" using our funkyFunction.
-// NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction
+var theFunk = funkyFunction();
+//Defines the global variable 'theFunk'
+//Assigns 'theFunk' the execution of the global variable 'Funky Function'
+
+theFunk = theFunk();
+//Assigns theFunk the execution of itself
+
+//1. 'theFunk' executes 'theFunk'
+//2. 'theFunk' executes 'funkyFunction'
+//3. 'funkyFunction' executes a function
+//4. This function returns a function
+//5. The second function returns the string "FUNKY!"
