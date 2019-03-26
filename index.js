@@ -5,7 +5,7 @@ var animal = 'dog';
 function myAnimal() {
   return animal;
 }
-//Defines the function 'myAnimal' that takes no arguments
+//Defines the function 'myAnimal' that accepts no parameters
 //'myAnimal' returns the global variable 'animal'
 //Because 'myAnimal' is in the same scope as 'animal,' the function will return the string 'dog' here
 
@@ -13,7 +13,7 @@ function yourAnimal(animal) {
   var animal = 'cat'
   return animal;
 }
-//Defines the function 'yourAnimal' that takes one argument, 'animal'
+//Defines the function 'yourAnimal' that accepts one parameter, 'animal'
 //Defines the LOCAL variable 'animal'
 //Assigns 'animal' the string 'cat' WITHIN the 'yourAnimal' function
 //'yourAnimal' returns the LOCAL variable 'animal'
@@ -23,7 +23,7 @@ function add2(n) {
   const two = 2;
   return n + two;
 }
-//Defines the function 'add2' that takes one argument, 'n'
+//Defines the function 'add2' that accepts one parameter, 'n'
 //Defines the local constant variable 'two'
 //Assigns 'two' the integer 2
 //'add2' returns 2 plus the entered integer
@@ -34,8 +34,8 @@ var funkyFunction = function() {
   };
 };
 //Defines the global variable 'funkyFunction'
-//Assigns funkyFunction the execution of a function that takes no arguments
-//The first function returns the execution of a second function that takes no arguments
+//Assigns funkyFunction the execution of a function that accepts no parameters
+//The first function returns the execution of a second function that accepts no parameters
 //The second function returns the string "FUNKY!"
 
 var theFunk = funkyFunction();
@@ -43,7 +43,7 @@ var theFunk = funkyFunction();
 //Assigns 'theFunk' the execution of the global variable 'Funky Function'
 
 theFunk = theFunk();
-//Assigns theFunk the execution of itself
+//Assigns 'theFunk' the execution of itself
 
 //1. 'theFunk' executes 'theFunk'
 //2. 'theFunk' executes 'funkyFunction'
