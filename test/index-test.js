@@ -37,3 +37,33 @@ describe('Fix the Scope', function() {
   })
 
 })
+
+var animal = 'dog';
+
+function myAnimal() {
+  return animal;
+}
+
+myAnimal();
+
+function yourAnimal() {
+  var animal = 'cat';
+  return animal;
+
+}
+ yourAnimal();
+ 
+ function add2(n){
+   n = n + 2;
+   return n;
+ }
+  
+  add2(51);
+  
+var funkyFunction = function outerShellFunction() {
+  return function theFunk() {
+    return "FUNKY!";
+  }};
+
+funkyFunction()();
+  
