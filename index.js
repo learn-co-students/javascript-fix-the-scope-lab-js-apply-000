@@ -5,7 +5,6 @@ function myAnimal() {
   return animal
 }
 
-//gave new local definition of animal in the body of the function to shadow global definition. Note: not ideal
 function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
@@ -14,7 +13,6 @@ function yourAnimal() {
   return animal
 }
 
-//moved declaration of const up so that it is defined when return statement executes
 function add2(n) {
   const two = 2
   return n + two
@@ -29,6 +27,5 @@ var funkyFunction = function() {
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
 
-//double parenthesis to invoke the inner-function in funkyFunction
 var theFunk = funkyFunction()()
   
