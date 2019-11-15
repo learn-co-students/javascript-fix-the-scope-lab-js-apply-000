@@ -1,4 +1,4 @@
-JavaScript Fix the Scope Lab
+learrJavaScript Fix the Scope Lab
 ---
 
 ## Objectives
