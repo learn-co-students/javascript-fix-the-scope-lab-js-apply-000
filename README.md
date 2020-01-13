@@ -1,8 +1,7 @@
 JavaScript Fix the Scope Lab
 ---
 
-## Objectives
-
+## Objective
 - Explore scope in JavaScript
 - Exercise bug-finding skills related to scope issues
 
