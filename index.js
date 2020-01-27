@@ -1,7 +1,7 @@
 var animal = 'cat';
 
-function myAnimal() {
-  return 'dog';
+function myAnimal(pet='dog') { // Set 'dog' to the default param and return
+  return pet; // Hard coding 'dog' into the return bugged me too much
 }
 
 function yourAnimal() {
@@ -24,5 +24,5 @@ var funkyFunction = function() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction().call();
+var theFunk = funkyFunction().call(); // .call() method chained onto the named function call will call the nested anonymous function
 
