@@ -6,19 +6,15 @@ function myAnimal() {
 }
 
 function yourAnimal() {
-  // The tests expect this function to return `animal` just like the previous function
-  // However, you cannot simply modify the existing variable declared on line 1 in the global scope 
-  // How can we make sure that this function
-  // and the above function both pass?
-  // P.S.: Hard-coding 'cat' below will not work
+  var animal = 'cat'  
   return animal
 }
+// Declaring a variable inside the function does not affect the    animal variable in the global scope.
 
 function add2(n) {
-  return n + two
-
-  // Feel free to move things around!
   const two = 2
+  return n + two
+// Moved the 'two' variable higher than the return line so it runs first.
 }
 
 var funkyFunction = function() {
@@ -29,4 +25,7 @@ var funkyFunction = function() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction
+var theFunk = funkyFunction()()
+// funkyFunction() gives access to the inner function, so you need to call it one more time with () to access 'Funky!'
+
+
