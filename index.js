@@ -30,3 +30,16 @@ var funkyFunction = function() {
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction
+function theFunk () {
+  return "FUNKY!" }  ;
+  var x = "declared outside function";
+
+exampleFunction();
+
+function funkyFunction() {
+    console.log("Inside function");
+    console.log(x);
+}
+
+console.log("Outside function");
+console.log(x);
